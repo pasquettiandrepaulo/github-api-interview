@@ -39,7 +39,7 @@ $(document).ready(function () {
             +'</div>');
         content.append('</br>');
         content.append('<button id="searchRepos" type="button" class="btn btn-primary">Repos</button> ');
-        content.append(' <button id="searchStarted" disabled type="button" class="btn btn-info">Starred</button>');
+        content.append(' <button id="searchStarted" type="button" class="btn btn-info">Starred</button>');
         content.append('<br>');
         content.append('<br>');
         content.append(
@@ -62,7 +62,6 @@ $(document).ready(function () {
             });
         }
     });
-
 
     /**
         Not implemented
